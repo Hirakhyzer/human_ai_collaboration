@@ -1,0 +1,68 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="620">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#334155" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" rx="30" fill="url(#panel)"/>
+  <text x="60" y="72" fill="#0F172A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="850">Human-AI Collaboration Research Map</text>
+  <text x="62" y="108" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">A structured view of tasks, recommendations, human decisions, risks, and measurable outcomes.</text>
+
+  <g stroke="#CBD5E1" stroke-width="3" stroke-linecap="round">
+    <path d="M287 243L455 180"/>
+    <path d="M287 311L455 391"/>
+    <path d="M615 180L786 243"/>
+    <path d="M615 391L786 311"/>
+    <path d="M520 229L520 340"/>
+    <path d="M900 277L1000 277"/>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="70" y="202" width="230" height="150" rx="26" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="120" cy="252" r="27" fill="#DBEAFE"/>
+    <text x="154" y="248" fill="#1E3A8A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Human Expert</text>
+    <text x="154" y="274" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Reviews, verifies, decides</text>
+    <text x="95" y="325" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Knowledge • Context • Responsibility</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="440" y="105" width="230" height="150" rx="26" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="490" cy="155" r="27" fill="#EDE9FE"/>
+    <text x="524" y="151" fill="#5B21B6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">AI Assistant</text>
+    <text x="524" y="177" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Suggests, explains, ranks</text>
+    <text x="466" y="228" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Confidence • Evidence • Alternatives</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="440" y="335" width="230" height="150" rx="26" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="490" cy="385" r="27" fill="#DCFCE7"/>
+    <text x="524" y="381" fill="#166534" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Feedback Loop</text>
+    <text x="524" y="407" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Learns from decisions</text>
+    <text x="468" y="458" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Acceptance • Override • Correction</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="770" y="202" width="230" height="150" rx="26" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <circle cx="820" cy="252" r="27" fill="#FEF3C7"/>
+    <text x="854" y="248" fill="#92400E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Outcome</text>
+    <text x="854" y="274" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Decision quality measured</text>
+    <text x="794" y="325" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Accuracy • Time • Trust • Risk</text>
+  </g>
+
+  <g filter="url(#cardShadow)">
+    <rect x="1010" y="215" width="130" height="124" rx="24" fill="#0F172A"/>
+    <text x="1032" y="253" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="800">Research</text>
+    <text x="1032" y="280" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Report</text>
+    <text x="1032" y="306" fill="#A7F3D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Dashboard</text>
+  </g>
+
+  <g transform="translate(70 535)">
+    <rect width="1060" height="46" rx="23" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="30" y="30" fill="#334155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Research chain:</text>
+    <text x="148" y="30" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">task design → AI recommendation → human judgment → final outcome → trust/risk analysis → research evidence</text>
+  </g>
+</svg>
