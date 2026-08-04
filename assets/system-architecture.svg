@@ -1,0 +1,68 @@
+<svg width="1250" height="620" viewBox="0 0 1250 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1250" y2="620">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#ECFEFF"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#64748B" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1250" height="620" rx="32" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#0F172A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="850">System Architecture</text>
+  <text x="62" y="108" fill="#475569" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">From task scenario to AI recommendation, human judgment, analytics, risk detection, and research reporting.</text>
+
+  <g stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 9">
+    <path d="M232 270H337"/>
+    <path d="M512 270H617"/>
+    <path d="M792 270H897"/>
+    <path d="M652 352V438"/>
+    <path d="M652 438H220"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="60" y="188" width="190" height="164" rx="24" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="88" y="220" width="52" height="52" rx="16" fill="#DBEAFE"/>
+    <text x="88" y="305" fill="#1E3A8A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Task Scenario</text>
+    <text x="88" y="333" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Dataset input</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="340" y="188" width="190" height="164" rx="24" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="368" y="220" width="52" height="52" rx="16" fill="#EDE9FE"/>
+    <text x="368" y="305" fill="#5B21B6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">AI Output</text>
+    <text x="368" y="333" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Suggestion + confidence</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="620" y="188" width="190" height="164" rx="24" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="648" y="220" width="52" height="52" rx="16" fill="#DCFCE7"/>
+    <text x="648" y="305" fill="#166534" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Human Review</text>
+    <text x="648" y="333" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Accept, reject, revise</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="900" y="188" width="190" height="164" rx="24" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="928" y="220" width="52" height="52" rx="16" fill="#FEF3C7"/>
+    <text x="928" y="305" fill="#92400E" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800">Outcome</text>
+    <text x="928" y="333" fill="#64748B" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Quality + evidence</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="215" y="438" width="224" height="108" rx="24" fill="#0F172A"/>
+    <text x="244" y="484" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Metric Engine</text>
+    <text x="244" y="514" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Acceptance • quality • agreement</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="513" y="438" width="224" height="108" rx="24" fill="#312E81"/>
+    <text x="542" y="484" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Risk Analyzer</text>
+    <text x="542" y="514" fill="#DDD6FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Bias • trust • explanation gaps</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="811" y="438" width="224" height="108" rx="24" fill="#0E7490"/>
+    <text x="840" y="484" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Research Report</text>
+    <text x="840" y="514" fill="#CFFAFE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Dashboard • thesis • paper</text>
+  </g>
+</svg>
