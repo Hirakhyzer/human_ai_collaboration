@@ -1,0 +1,87 @@
+<svg width="1300" height="760" viewBox="0 0 1300 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1300" y2="760">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1300" height="760" rx="34" fill="url(#bg)"/>
+  <circle cx="1120" cy="90" r="240" fill="#7C3AED" fill-opacity="0.22"/>
+  <circle cx="160" cy="680" r="260" fill="#06B6D4" fill-opacity="0.18"/>
+
+  <g transform="translate(54 48)">
+    <text fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="850">Human-AI Collaboration Dashboard</text>
+    <text y="38" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Prototype analytics for trust, acceptance, overrides, quality, and collaboration risk.</text>
+  </g>
+
+  <g transform="translate(54 118)" filter="url(#shadow)">
+    <rect width="284" height="136" rx="24" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="25" y="38" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Acceptance rate</text>
+    <text x="25" y="86" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="850">75%</text>
+    <text x="25" y="113" fill="#67E8F9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">AI suggestions accepted</text>
+  </g>
+
+  <g transform="translate(368 118)" filter="url(#shadow)">
+    <rect width="284" height="136" rx="24" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="25" y="38" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Override rate</text>
+    <text x="25" y="86" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="850">25%</text>
+    <text x="25" y="113" fill="#FDE68A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Human corrections applied</text>
+  </g>
+
+  <g transform="translate(682 118)" filter="url(#shadow)">
+    <rect width="284" height="136" rx="24" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="25" y="38" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Mean decision quality</text>
+    <text x="25" y="86" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="850">0.86</text>
+    <text x="25" y="113" fill="#A7F3D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Average outcome score</text>
+  </g>
+
+  <g transform="translate(996 118)" filter="url(#shadow)">
+    <rect width="250" height="136" rx="24" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="25" y="38" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Risk signals</text>
+    <text x="25" y="86" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="850">6</text>
+    <text x="25" y="113" fill="#FCA5A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Detected across scenarios</text>
+  </g>
+
+  <g transform="translate(54 290)" filter="url(#shadow)">
+    <rect width="590" height="380" rx="28" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="28" y="43" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Workflow comparison</text>
+    <line x1="58" y1="318" x2="532" y2="318" stroke="#94A3B8" stroke-opacity="0.35"/>
+    <line x1="58" y1="88" x2="58" y2="318" stroke="#94A3B8" stroke-opacity="0.35"/>
+    <rect x="105" y="188" width="72" height="130" rx="12" fill="#38BDF8"/>
+    <rect x="255" y="157" width="72" height="161" rx="12" fill="#A78BFA"/>
+    <rect x="405" y="112" width="72" height="206" rx="12" fill="#34D399"/>
+    <text x="102" y="348" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Human</text>
+    <text x="262" y="348" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">AI</text>
+    <text x="398" y="348" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Human-AI</text>
+    <text x="92" y="174" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">0.71</text>
+    <text x="242" y="143" fill="#DDD6FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">0.79</text>
+    <text x="392" y="98" fill="#BBF7D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13">0.91</text>
+  </g>
+
+  <g transform="translate(690 290)" filter="url(#shadow)">
+    <rect width="556" height="380" rx="28" fill="#FFFFFF" fill-opacity="0.1" stroke="#FFFFFF" stroke-opacity="0.16"/>
+    <text x="28" y="43" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="800">Risk radar</text>
+    <g transform="translate(45 84)">
+      <rect width="460" height="54" rx="17" fill="#0F172A" fill-opacity="0.52"/>
+      <text x="18" y="34" fill="#FCA5A5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="750">automation_bias</text>
+      <rect x="255" y="18" width="170" height="18" rx="9" fill="#334155"/>
+      <rect x="255" y="18" width="126" height="18" rx="9" fill="#F87171"/>
+    </g>
+    <g transform="translate(45 158)">
+      <rect width="460" height="54" rx="17" fill="#0F172A" fill-opacity="0.52"/>
+      <text x="18" y="34" fill="#FDE68A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="750">low_explainability</text>
+      <rect x="255" y="18" width="170" height="18" rx="9" fill="#334155"/>
+      <rect x="255" y="18" width="100" height="18" rx="9" fill="#FBBF24"/>
+    </g>
+    <g transform="translate(45 232)">
+      <rect width="460" height="54" rx="17" fill="#0F172A" fill-opacity="0.52"/>
+      <text x="18" y="34" fill="#A7F3D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="750">verification_gap</text>
+      <rect x="255" y="18" width="170" height="18" rx="9" fill="#334155"/>
+      <rect x="255" y="18" width="74" height="18" rx="9" fill="#34D399"/>
+    </g>
+    <text x="45" y="334" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">Used for experiment reports, dashboards, and supervision discussions.</text>
+  </g>
+</svg>
