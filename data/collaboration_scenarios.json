@@ -1,0 +1,54 @@
+[
+  {
+    "id": "debugging_001",
+    "task": "Locate a regression bug in a data processing pipeline",
+    "human_role": "software developer",
+    "ai_role": "debugging assistant",
+    "ai_recommendation": "Inspect the recent schema validation change before modifying the parser.",
+    "human_decision": "accepted",
+    "aligned_with_ai": true,
+    "outcome_quality": 0.92,
+    "ai_confidence": 0.81,
+    "explanation_quality": 0.76,
+    "risk_tags": ["automation_bias"]
+  },
+  {
+    "id": "review_002",
+    "task": "Review a pull request that changes authentication middleware",
+    "human_role": "code reviewer",
+    "ai_role": "security review assistant",
+    "ai_recommendation": "Request additional tests for expired-token behavior.",
+    "human_decision": "accepted",
+    "aligned_with_ai": true,
+    "outcome_quality": 0.88,
+    "ai_confidence": 0.74,
+    "explanation_quality": 0.84,
+    "risk_tags": ["verification_gap"]
+  },
+  {
+    "id": "requirements_003",
+    "task": "Classify ambiguous user requirements for a scheduling feature",
+    "human_role": "requirements analyst",
+    "ai_role": "classification assistant",
+    "ai_recommendation": "Mark the requirement as functional and high priority.",
+    "human_decision": "revised",
+    "aligned_with_ai": false,
+    "outcome_quality": 0.79,
+    "ai_confidence": 0.62,
+    "explanation_quality": 0.48,
+    "risk_tags": ["low_explainability", "ambiguity"]
+  },
+  {
+    "id": "testing_004",
+    "task": "Generate test cases for an API endpoint handling invalid payloads",
+    "human_role": "quality engineer",
+    "ai_role": "test generation assistant",
+    "ai_recommendation": "Add boundary tests for missing, null, and malformed request fields.",
+    "human_decision": "accepted",
+    "aligned_with_ai": true,
+    "outcome_quality": 0.85,
+    "ai_confidence": 0.79,
+    "explanation_quality": 0.72,
+    "risk_tags": ["coverage_gap"]
+  }
+]
