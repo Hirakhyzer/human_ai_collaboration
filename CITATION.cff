@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: Human-AI Collaboration Lab
+message: If you use this research prototype, please cite it using the metadata in this file.
+type: software
+authors:
+  - family-names: Khyzer
+    given-names: Hira
+repository-code: https://github.com/Hirakhyzer/human_ai_collaboration
+abstract: A research-grade laboratory for modeling, evaluating, and documenting human-AI collaboration workflows in software engineering and decision support.
+keywords:
+  - human-ai collaboration
+  - human-centered AI
+  - software engineering
+  - empirical software engineering
+  - trust calibration
+license: MIT
